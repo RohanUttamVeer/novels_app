@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:novels/screen2.dart';
-import 'package:novels/screen5.dart';
-
-import 'screen3.dart';
-import 'screen4.dart';
+import 'package:novels/screen3.dart';
 
 class NovelsPage extends StatelessWidget {
   @override
@@ -275,7 +272,7 @@ class NovelsPage extends StatelessWidget {
                             onPressed: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => Details3())),
+                                    builder: (context) => Details1())),
                             child: Text(
                               'Buy',
                               style: TextStyle(color: Colors.pink[700]),
@@ -363,7 +360,7 @@ class NovelsPage extends StatelessWidget {
                             onPressed: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => Details4())),
+                                    builder: (context) => Details2())),
                             child: Text(
                               'Buy',
                               style: TextStyle(color: Colors.pink[700]),
